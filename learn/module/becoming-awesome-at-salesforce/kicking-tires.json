@@ -1,0 +1,30 @@
+{
+  "title": "Here's what you need to do",
+  "description": "<ol><li>do something awesome</li></ol>",
+  "requirements": [
+    "Eat breakfast",
+    "Make your bed",
+    "Call your mother"
+  ],
+  "assessment": [
+    {
+      "action": "Find Account",
+      "endpoint": "/services/data/v40.0/query?q=",
+      "parameter": "select id from account limit 1",
+      "confirm": "result.count > 0",
+      "success": "Found Account - SUCCESS!",
+      "error": "Could not find an Account. Doh!"
+    },
+    {
+      "action": "Find a Lead",
+      "endpoint": "/services/data/v45.0/query?q=",
+      "parameter": "select id from lead limit 1",
+      "confirm": "result.count > 1",
+      "success": "Find a Lead - SUCCESS!",
+      "error": "NO leads found!!!"
+    }
+  ],
+  "questions": [
+
+  ]
+}
