@@ -6,7 +6,7 @@
       "plugin": "SalesforceRestApi",
       "definition": {
         "endpoint": "tooling/executeAnonymous",
-        "parameter": "anonymousBody=List<Opportunity> o = [SELECT ID from Opportunity Where Name = '500 units' and StageName = 'Prospecting' LIMIT 1]; \r\nSystem.assertEquals(o.size(),1);"
+        "parameter": "anonymousBody=List<Opportunity> o = [SELECT ID from Opportunity LIMIT 1]; \r\nSystem.assertEquals(o.size(),1);"
       },
       "handler": "handler1",
       "schema": 1
@@ -16,7 +16,7 @@
       "plugin": "SalesforceRestApi",
       "definition": {
         "endpoint": "tooling/executeAnonymous",
-        "parameter": "anonymousBody=List<Opportunity> o = [SELECT ID from Opportunity Where Name = '500 units' and StageName = 'Prospecting' LIMIT 1];\r\nList<OpportunityTeamMember> otm = [SELECT ID, OpportunityId, TeamMemberRole from OpportunityTeamMember WHERE OpportunityId =: o[0].Id AND TeamMemberRole = 'Sales Rep' AND UserId =: UserInfo.getUserId()];\r\nSystem.assertEquals(otm.size(),1);"
+        "parameter": "anonymousBody=List<Opportunity> o = [SELECT ID from Opportunity LIMIT 1];\r\nSystem.assertEquals(o.size(),1);"
       },
       "handler": "handler2",
       "schema": 1
