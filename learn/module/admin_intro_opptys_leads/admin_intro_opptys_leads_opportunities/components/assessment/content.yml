@@ -1,0 +1,16 @@
+---
+en:
+  title: Create an opportunity with yourself on the opportunity team
+  description: "<p>You've met with your newest account and have identified a new opportunity.
+    Create a new opportunity and add yourself to the opportunity team.</p>\r\n\r\n<p>To
+    start with:<ul>\r\n<li>Use the instructions in the unit to enable Opportunity
+    Teams.</li>\r\n<li>Use the instructions in the unit to add the Opportunity Teams
+    related list to the Opportunity page layout.</li>\r\n</ul></p>"
+  requirements:
+  - Create an opportunity
+  - 'Opportunity Name: <strong>500 units</strong>'
+  - 'Stage: <strong>Prospecting</strong>'
+  - Choose any Amount, any Close Date in the future, and pick any value for the Account
+    Name
+  - Add yourself to the opportunity team for the 500 units opportunity
+  - 'Team Role: <strong>Sales Rep</strong>'

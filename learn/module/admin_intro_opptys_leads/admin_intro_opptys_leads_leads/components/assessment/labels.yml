@@ -1,0 +1,10 @@
+---
+en:
+  betty.found: Found a lead record for Betty Nguyen!
+  betty.not_found: Could not find a lead record for Betty Nguyen with the correct
+    company, title and lead source.
+  opp.found: Found the '500 Units' opportunity.
+  opp.not_found: Could not find an opportunity with the name '500 units' with the
+    correct stage.
+  salesrep.found: Found Sales Rep for the '500 units' opportunity.
+  salesrep.not_found: Could not a Sales Rep for the '500 units' opportunity.

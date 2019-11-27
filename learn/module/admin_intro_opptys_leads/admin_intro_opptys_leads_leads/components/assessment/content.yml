@@ -1,0 +1,8 @@
+---
+en:
+  title: Create a lead with the correct fields
+  description: You met a potential new lead at a conference and want to track them
+    in Salesforce. To pass this challenge, create a new lead.
+  requirements:
+  - Create a lead with First Name = 'Betty', Last Name = 'Nguyen', Company = 'Betty
+    Nguyen Corporation', Title = 'CEO', and Lead Source = 'Other'.

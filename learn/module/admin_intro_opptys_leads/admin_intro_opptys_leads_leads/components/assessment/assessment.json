@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "checks": [
+    {
+      "description": "Find 'Betty Nguyen'",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=List<Lead> l = [SELECT ID from Lead Where FirstName = 'Betty' and LastName = 'Nguyen' and Company = 'Betty Nguyen Corporation' and Title = 'CEO' and LeadSource = 'Other' LIMIT 1];\r\nSystem.assertEquals(1,l.size());"
+      },
+      "handler": "handler1",
+      "schema": 1
+    },
+    {
+      "description": "Find Betty Nguyen (SOQL)",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/query",
+        "parameter": "q=SELECT ID from Lead LIMIT 1"
+      },
+      "handler": "handler2",
+      "schema": 1
+    },
+    {
+      "description": "Custom Endpoint",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "chatter/groups",
+        "parameter": ""
+      },
+      "handler": "handler3",
+      "schema": 1
+    }
+  ]
+}
