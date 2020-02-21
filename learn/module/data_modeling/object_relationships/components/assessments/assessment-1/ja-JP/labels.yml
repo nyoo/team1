@@ -1,0 +1,21 @@
+---
+ja-JP:
+  offer.found: 
+  offer.not.found: 
+  offerAmount.found: 
+  offerAmount.not.found: 
+  targetCloseDate.found: 
+  targetCloseDate.not.found: 
+  property.found: 
+  contact.found: 
+  contact.not.found: 
+  streetAddress.found: 
+  streetAddress.not.found: 
+  property.not.found: 
+  offer__c: 
+  Offer__c: 
+  Offer_Amount__c: 
+  Target_Close_Date__c: 
+  Property__c: 
+  Contact__c: 
+  Street_Address__c: 
