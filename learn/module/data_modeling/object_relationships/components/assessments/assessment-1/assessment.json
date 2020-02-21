@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "checks": [
+    {
+      "description": "Find Property",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.%t{Offer__c}.fields.%t{Property__c};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'REFERENCE');"
+      },
+      "handler": "handler1",
+      "id": 38,
+      "order": 1,
+      "schema": 1
+    },
+    {
+      "description": "Find Contact",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.%t{Offer__c}.fields.%t{Contact__c};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'REFERENCE');"
+      },
+      "handler": "handler2",
+      "id": 39,
+      "order": 2,
+      "schema": 1
+    }
+  ]
+}
