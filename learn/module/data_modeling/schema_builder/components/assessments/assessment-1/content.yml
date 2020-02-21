@@ -1,0 +1,10 @@
+---
+en-US:
+  title: Use Schema Builder to create a custom field for the Property object
+  description: DreamHouse brokers often visit properties with their clients. They
+    want to see on the property record where the property is located. Use Schema Builder
+    to add a street address field to the Property object.
+  requirements:
+  - "Field data type: <strong>Text Area</strong>\r\n"
+  - 'Field label: <strong>Street Address</strong>'
+  - 'Always require a value in this field in order to save a record: <strong>Selected</strong>'
