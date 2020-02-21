@@ -1,0 +1,17 @@
+---
+en-US:
+  title: Build a custom Offer object
+  description: When a homebuyer makes an offer to buy a property, the brokers at DreamHouse
+    Realty need to track the details in Salesforce. Create a custom object they can
+    use to record the offer amount and target close date for the sale. Use auto numbering
+    to generate the name of each offer record.
+  requirements:
+  - 'Create a custom object name: <strong>Offer</strong>'
+  - 'Record name: <strong>Offer Name</strong>'
+  - 'Record data type: <strong>Auto Number</strong>'
+  - 'Display format: <strong>OF-{0000}</strong>'
+  - 'Starting Number: <strong>1</strong>'
+  - Create a custom currency field on the Offer object named <strong>Offer Amount</strong>
+    with the data type <strong>Currency</strong>
+  - Create a custom date field on the Offer object named <strong>Target Close Date</strong>
+    with the data type <strong>Date</strong>
