@@ -1,0 +1,26 @@
+---
+en-US:
+  offer.found: Found object
+  offer.not.found: Could not find a custom object 'Offer__c'.
+  offerAmount.found: Found field successfully
+  offerAmount.not.found: The field 'Offer_Amount__c' either does not exists on the
+    Offer__c object or it is not of type currency.
+  targetCloseDate.found: Found field successfully
+  targetCloseDate.not.found: The field 'Target_Close_Date__c' either does not exists
+    on the Offer__c object or it is not of type date.
+  property.found: Found field successfully
+  contact.found: Found field successfully
+  contact.not.found: The field 'Contact__c' either does not exists on the Offer__c
+    object or it is not lookup relationship.
+  streetAddress.found: Found field successfully
+  streetAddress.not.found: The field 'Street_Address__c' either does not exists on
+    the Property__c object or it is not of type textarea.
+  property.not.found: The field 'Property__c' either does not exists on the Offer__c
+    object or it is not a Master-Detail relationship.
+  offer__c: offer__c
+  Offer__c: Offer__c
+  Offer_Amount__c: Offer_Amount__c
+  Target_Close_Date__c: Target_Close_Date__c
+  Property__c: Property__c
+  Contact__c: Contact__c
+  Street_Address__c: Street_Address__c

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "checks": [
+    {
+      "description": "Find Street Address",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.%t{Property__c}.fields.%t{Street_Address__c};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'TEXTAREA');"
+      },
+      "handler": "handler1",
+      "id": 40,
+      "order": 1,
+      "schema": 1
+    }
+  ]
+}

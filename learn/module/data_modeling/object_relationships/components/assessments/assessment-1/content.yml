@@ -1,0 +1,15 @@
+---
+en-US:
+  title: Create relationships for the Offer object
+  description: "The object you created for the previous challenge is pretty handy.
+    Imagine how much more useful it would be if brokers could specify which client
+    made an offer and which property the client wants to buy. Add two relationships
+    to the Offer object so brokers can capture this data in Salesforce. Create a Master-Detail
+    relationship with the Property object and a Lookup relationship with the Contact
+    object.\r\n<p>\r\n<br/>\r\n<b>Before You Start:</b>\r\n<ul><li>Create the <b>Property</b>
+    object as described in the previous unit.</li></ul>\r\n<br/>\r\n<b>Challenge Requirements:</b>"
+  requirements:
+  - On the Offer object, add a <strong>Master-Detail</strong> relationship to the
+    Property object named <strong>Property</strong>
+  - On the Offer object, add a <strong>Lookup</strong> relationship to the Contact
+    object named <strong>Contact</strong>

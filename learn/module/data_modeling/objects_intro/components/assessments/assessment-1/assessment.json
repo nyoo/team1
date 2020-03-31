@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "checks": [
+    {
+      "description": "Find Offer",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=List<Offer__c> records = [select id from %t{offer__c} limit 1];"
+      },
+      "handler": "handler1",
+      "id": 35,
+      "order": 1,
+      "schema": 1
+    },
+    {
+      "description": "Find Offer Amount",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.%t{Offer__c}.fields.%t{Offer_Amount__c};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'CURRENCY');"
+      },
+      "handler": "handler2",
+      "id": 36,
+      "order": 2,
+      "schema": 1
+    },
+    {
+      "description": "Find Target Close Date",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.%t{Offer__c}.fields.%t{Target_Close_Date__c};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'DATE');"
+      },
+      "handler": "handler3",
+      "id": 37,
+      "order": 3,
+      "schema": 1
+    }
+  ]
+}
