@@ -1,0 +1,52 @@
+{
+  "_id": "trailhead.challenge.starting_developer_console.en.us.192",
+  "tag_ids": [
+    "trailhead.tag.general.en.us.192"
+  ],
+  "tag_points": [
+    {
+      "tag_id": "trailhead.tag.general.en.us.192",
+      "title": "General",
+      "points": 500
+    }
+  ],
+  "total_mins": 5,
+  "type": "challenge",
+  "code_evaluation_json": {
+    "title": "",
+    "description": "",
+    "requirements": [
+
+    ],
+    "assessment": [
+
+    ],
+    "questions": [
+      {
+        "question": "When you're getting started with AppExchange, a best practice is to:",
+        "options": [
+          "Install apps of interest right away.",
+          "Request the top 3 apps from each department.",
+          "Develop a plan, including budget, timing, and key department use cases.",
+          "Install apps directly into production."
+        ],
+        "answers": [
+          2
+        ]
+      },
+      {
+        "question": "When you want to find an app after you install it, what should you enter in the Quick Find box in Setup?",
+        "options": [
+          "Installed Apps",
+          "Installed Packages",
+          "Installed Components",
+          "Installations",
+          "Apps"
+        ],
+        "answers": [
+          1
+        ]
+      }
+    ]
+  }
+}
