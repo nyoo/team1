@@ -22,32 +22,7 @@
 
     ],
     "questions": [
-      {
-        "question": "When identifying processes to bring into Salesforce, look for:",
-        "options": [
-          "Manual processes with numerous steps",
-          "Email-driven processes",
-          "Teams using spreadsheets to run the business",
-          "Documents shared on local directories",
-          "All of the above"
-        ],
-        "answers": [
-          4
-        ]
-      },
-      {
-        "question": "Three use cases for Finance on the platform are:",
-        "options": [
-          "Help desk, Pricing, Facilities management",
-          "Vendor management, Transportation, Contract management",
-          "Budget management, Pricing, Contract management",
-          "Identity management, Billing management, Budget management",
-          "All of the above"
-        ],
-        "answers": [
-          2
-        ]
-      }
+
     ]
   }
 }
