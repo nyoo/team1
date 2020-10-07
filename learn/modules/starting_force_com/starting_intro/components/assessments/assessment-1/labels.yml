@@ -1,0 +1,6 @@
+---
+en-US:
+  contact.loan_amount.field: Loan_Amount__c
+  loan_amount_field.not_found: The field 'Loan_Amount__c' either does not exists on
+    the Contact object or it is not of type currency.
+  loan_amount_field.found: Found the 'Loan_Amount__c' field on the Contact object.

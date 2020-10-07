@@ -1,0 +1,63 @@
+{
+  "_id": "trailhead.challenge.starting_tour.en.us.192",
+  "tag_ids": [
+    "trailhead.tag.general.en.us.192"
+  ],
+  "tag_points": [
+    {
+      "tag_id": "trailhead.tag.general.en.us.192",
+      "title": "General",
+      "points": 500
+    }
+  ],
+  "total_mins": 5,
+  "type": "challenge",
+  "code_evaluation_json": {
+    "title": "",
+    "description": "",
+    "requirements": [
+
+    ],
+    "assessment": [
+
+    ],
+    "questions": [
+      {
+        "question": "The Company Information page is where you can find:",
+        "options": [
+          "Your org ID",
+          "Licenses available and in use",
+          "Information on important limits such as data and file usage",
+          "All of the above"
+        ],
+        "answers": [
+          3
+        ]
+      },
+      {
+        "question": "What are the three main categories in the Setup menu?",
+        "options": [
+          "Object Management, Preferences, Groups  ",
+          "User Management, Settings, Security",
+          "Administration, Platform Tools, Settings",
+          "AppExchange, Profiles, Customizations"
+        ],
+        "answers": [
+          2
+        ]
+      },
+      {
+        "question": "What is an easy way to find what you're looking for in the Setup menu?",
+        "options": [
+          "Type the first few letters of what you're looking for in the Quick Find box.",
+          "Click headings and subheadings until you find what you're looking for.",
+          "Memorize what's in each category.",
+          "Click one of the main categories in the Setup menu, then look at the page to the right."
+        ],
+        "answers": [
+          0
+        ]
+      }
+    ]
+  }
+}

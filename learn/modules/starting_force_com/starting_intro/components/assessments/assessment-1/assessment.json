@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "checks": [
+    {
+      "description": "Find Field",
+      "plugin": "SalesforceRestApi",
+      "definition": {
+        "endpoint": "tooling/executeAnonymous",
+        "api_version": null,
+        "parameter": "anonymousBody=Schema.DescribeFieldResult dfr = Schema.sObjectType.Contact.fields.%t{contact.loan_amount.field};\r\nSystem.assertEquals(String.valueOf(dfr.getType()),'CURRENCY');"
+      },
+      "handler": "handler1",
+      "id": 5948,
+      "order": 1,
+      "schema": 1
+    }
+  ]
+}

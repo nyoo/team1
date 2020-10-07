@@ -1,0 +1,19 @@
+---
+en-US:
+  title: Add a custom field to the Contact object
+  description: "Many homebuyers who work with DreamHouse Realty are prequalified for
+    a home loan. Brokers need to know how much money their clients can borrow so they
+    can show properties in the right price range. Add a Prequalified Amount field
+    to the Contact object so brokers can record and see this information.<br><br>\r\nNote:
+    To pass this challenge, you will create a new custom field (in addition to the
+    one you made earlier in this unit, if you were following along). "
+  description_html: "Many homebuyers who work with DreamHouse Realty are prequalified
+    for a home loan. Brokers need to know how much money their clients can borrow
+    so they can show properties in the right price range. Add a Prequalified Amount
+    field to the Contact object so brokers can record and see this information.<br><br>\r\nNote:
+    To pass this challenge, you will create a new custom field (in addition to the
+    one you made earlier in this unit, if you were following along). "
+  requirements:
+  - Create a field on the <strong>Contact</strong> object
+  - 'Field data type: <strong>Currency</strong>'
+  - 'Field label: <strong>Loan Amount</strong>'

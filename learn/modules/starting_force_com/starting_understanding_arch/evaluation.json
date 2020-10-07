@@ -1,0 +1,63 @@
+{
+  "_id": "trailhead.challenge.starting_understanding_arch.en.us.192",
+  "tag_ids": [
+    "trailhead.tag.general.en.us.192"
+  ],
+  "tag_points": [
+    {
+      "tag_id": "trailhead.tag.general.en.us.192",
+      "title": "General",
+      "points": 500
+    }
+  ],
+  "total_mins": 5,
+  "type": "challenge",
+  "code_evaluation_json": {
+    "title": "",
+    "description": "",
+    "requirements": [
+
+    ],
+    "assessment": [
+
+    ],
+    "questions": [
+      {
+        "question": "Our trusted, multitenant cloud means you get:",
+        "options": [
+          "The benefits of the same core set of features for all customers",
+          "Upgrades three times a year",
+          "No software to install to access Salesforce",
+          "All of the above"
+        ],
+        "answers": [
+          3
+        ]
+      },
+      {
+        "question": "The Salesforce API is:",
+        "options": [
+          "Like a contract between two pieces of software, allowing them to connect and exchange information",
+          "Not available for certain technologies such as wearables",
+          "The exact same thing as an API name",
+          "Only for programmers to use"
+        ],
+        "answers": [
+          0
+        ]
+      },
+      {
+        "question": "Metadata refers to:",
+        "options": [
+          "Everything in your Salesforce org, including your customer and user data",
+          "A representation of your standard functionality, without customizations",
+          "Data about data",
+          "Configuration-based modifications only"
+        ],
+        "answers": [
+          2
+        ]
+      }
+    ]
+  }
+}
